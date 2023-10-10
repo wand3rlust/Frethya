@@ -71,9 +71,11 @@ while True:
     print("                                   Github: github.com/wand3rlust")
     print("\033[0;0m")
     print("\033[1;34m")
+    
     print("\n1. Encode")
     print("2. Decode")
     print("3. Exit")
+    
     choice = input("Enter your choice (1-3): ")
     if choice == "1":
         file_path = input("Enter the file path: ")
